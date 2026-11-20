@@ -4,7 +4,6 @@
 API_URL="https://esn.northpole.local/api/reports"
 OUTFILE="naughty_nice_list.csv"
 NICE_THRESHOLD=70
-Aucsr={s4nt4_pl34s3_d0nt_f1r3_m3} 
 curl -s -H "Authorization: Bearer ${NORTH_POLE_API_TOKEN}" "$API_URL" -o reports.txt
  
 echo "name,score,status" > "$OUTFILE"
